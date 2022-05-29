@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "x";
+    src: url("/src/Assest/font/Rezvan-fat.ttf");
+}
+
+.boxnavigation{
+    border-bottom: 3px solid purple;
+    width: 40%;
+    padding: 4px 10px;
+    text-align: right;
+   
+    margin: auto;
+}
+
+.icon{
+    color: purple;
+   margin-right: 20px;
+   font-size: 20px;
+   cursor: pointer;
+   transition: all 3ms ease-in;
+}
+.icon:hover{
+    transform: scale(1.3);
+    color: rgb(92, 5, 92);
+}
+
+.title{
+    font-family: x;
+    color: rgb(85, 5, 85);
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 80px;
+}

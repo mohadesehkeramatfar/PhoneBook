@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "kamva";
+  src: url("/src/Assest/font/kamva.ttf");
+}
+
+@font-face {
+  font-family: "aseman";
+  src: url("/src/Assest/font/g\ aseman.ttf");
+}
+
+body {
+  font-family: aseman;
+  font-size: 14px;
+ 
+ 
+}
+
+.title{
+  text-align: center;
+  color: red;
+  direction: rtl;
+  border-bottom: 3px solid rgb(194, 27, 194);
+  width: 40%;
+  margin: 20px auto;
+  font-family: kamva;
+}
+
+.boxInfo {
+  border-bottom: 3px solid rgb(194, 27, 194);
+  display: flex;
+  width: 35%;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px auto;
+  
+}
+.logouser {
+  color: rgb(102, 3, 102);
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.infoUser {
+  text-align: right;
+  direction: rtl;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(85, 81, 81);
+}
+.titleInfo {
+  font-weight: bold;
+  color: rgb(63, 60, 60);
+  font-family: kamva;
+  font-size: 14px;
+}
+
+.logoIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 300px;
+  position: absolute;
+}
+
+.icon {
+  margin-left: 30px;
+  font-size: 17px;
+  transition: all 3ms ease-in-out;
+  cursor: pointer;
+}
+.icon:hover{
+    transform: scale(1.3);
+    font-weight: bolder;
+}
+
+.icon.trashIcon{
+    color: rgb(209, 14, 14);
+
+}
+
+.icon.editIcon{
+    color: green;
+}
+
+.input{
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid purple;
+  padding: 4px 10px;
+  direction: rtl;
+  font-family: aseman;
+  
+}
+
+.filterSearchBox{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  align-items: center;
+  width: 40%;
+  padding: 4px 10px;
+}
+.sortSelect{
+  padding: 4px 10px;
+  display: inline;
+  font-weight: bolder;
+}
+textarea{
+  resize: none;
+}
+
+.boxDetailInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  font-size: 20px;
+  direction: rtl;
+  padding: 4px 10px;
+  border-bottom: 3px solid purple;
+  width: 40%;
+  
+}

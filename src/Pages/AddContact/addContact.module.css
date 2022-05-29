@@ -1,0 +1,66 @@
+.formAddContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input {
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid purple;
+  padding: 4px 10px;
+  direction: rtl;
+  font-family: aseman;
+}
+
+.btnadd {
+  margin-top: 10px;
+  outline: none;
+  border: 2px solid purple;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-family: kamva;
+  font-weight: bolder;
+  color: rgb(78, 10, 78);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sexList{
+  font-family: aseman;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid purple;
+  padding: 4px 10px;
+  direction: rtl;
+
+}
+
+.titleAlarm{
+  margin-bottom: 10px;
+  font-size: 20px;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.titleAlarm .facheck{
+  color: green;
+  margin-left: 10px;
+  
+}
+
+.boxError{
+  margin: 0;
+  color: red;
+}
+
+.btnadd:disabled{
+  cursor:not-allowed;
+  color: gray;
+}
+
